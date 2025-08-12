@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:invoicing_dashboard/core/utils/app_styles.dart';
-import 'package:invoicing_dashboard/features/drawer/data/model/user_info_model.dart';
+import 'package:invoicing_dashboard/models/user_info_model.dart';
 
 
 class UserInfoListTile extends StatelessWidget {

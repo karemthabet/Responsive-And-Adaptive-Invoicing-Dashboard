@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:invoicing_dashboard/core/utils/app_styles.dart';
-import 'package:invoicing_dashboard/features/drawer/data/model/drawer_item_model.dart';
+import 'package:invoicing_dashboard/models/drawer_item_model.dart';
+
 
 class InActiveDrawerItem extends StatelessWidget {
   const InActiveDrawerItem({

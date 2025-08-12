@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:invoicing_dashboard/features/drawer/data/model/drawer_item_model.dart';
-import 'package:invoicing_dashboard/features/drawer/presentation/views/widgets/active_and_inactive_item.dart';
+import 'package:invoicing_dashboard/models/drawer_item_model.dart';
+import 'package:invoicing_dashboard/widgets/active_and_inactive_item.dart';
+
 
 class DrawerItem extends StatelessWidget {
-  const DrawerItem({
-    super.key,
-    required this.drawerItemModel,
-    required this.isActive,
-  });
+  const DrawerItem(
+      {super.key, required this.drawerItemModel, required this.isActive});
 
   final DrawerItemModel drawerItemModel;
   final bool isActive;

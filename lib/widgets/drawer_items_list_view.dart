@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
 import 'package:invoicing_dashboard/core/utils/app_images.dart';
-import 'package:invoicing_dashboard/features/drawer/data/model/drawer_item_model.dart';
-import 'package:invoicing_dashboard/features/drawer/presentation/views/widgets/drawer_item.dart';
+import 'package:invoicing_dashboard/models/drawer_item_model.dart';
+import 'package:invoicing_dashboard/widgets/drawer_item.dart';
 
 
 class DrawerItemsListView extends StatefulWidget {

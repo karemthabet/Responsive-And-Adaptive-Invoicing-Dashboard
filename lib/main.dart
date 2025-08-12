@@ -1,18 +1,25 @@
+import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
-import 'package:invoicing_dashboard/features/drawer/presentation/views/drawer_view.dart';
+import 'package:invoicing_dashboard/views/dashboard_view.dart';
+
 
 void main() {
-  runApp(const ResponsiveAndAdaptiveInvoicingDashboard());
+  runApp(DevicePreview(
+    enabled: false,
+    builder: (context) => const ResponsiveDashBoard(),
+  ));
 }
 
-class ResponsiveAndAdaptiveInvoicingDashboard extends StatelessWidget {
-  const ResponsiveAndAdaptiveInvoicingDashboard({super.key});
+class ResponsiveDashBoard extends StatelessWidget {
+  const ResponsiveDashBoard({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
+      locale: DevicePreview.locale(context),
+      builder: DevicePreview.appBuilder,
       debugShowCheckedModeBanner: false,
-      home: DrawerView(),
+      home: const DashBoradView(),
     );
   }
 }
