@@ -27,6 +27,10 @@ Perfect for finance, banking, or payment-related applications, this dashboard co
 
 ## 🖼 Preview  
 
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/12c60a62-a3e5-4188-a57f-739671892201" controls width="480" style="border-radius: 12px;"></video>
+</div>
+
 ![Finance Dashboard Screenshot](assets/images/dash.png)  
 
 ---
